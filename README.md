@@ -4,7 +4,7 @@ call ssh-function via api instead of commandline tools.
 #### Method-1: Compile libssh (with default openssl)
 ```sh
 # step-1. download the source code
-wget https://www.libssh.org/files/0.9/libssh-0.9.5.tar.xz
+wget -nc https://www.libssh.org/files/0.9/libssh-0.9.5.tar.xz
 
 # step-2. uncompress the tarball
 tar -xvf libssh-0.9.5.tar.xz
