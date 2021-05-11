@@ -52,5 +52,6 @@ make install
 
 #### Compile your application
 ```sh
-g++ main.cc -o main -O2 -I../release/include ../release/lib/libssh.a -lcrypto -lz
+g++ main-ssh.cc -o main-ssh -O2 -std=c++98 -I../release/include ../release/lib/libssh.a -lcrypto -lz
+g++ main-scp.cc -o main-scp -O2 -std=c++98 -I../release/include ../release/lib/libssh.a -lcrypto -lz
 ```
