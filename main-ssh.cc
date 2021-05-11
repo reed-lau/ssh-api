@@ -4,7 +4,7 @@
 #include <string>
 
 const char *user = "user";
-const char *host = "1.2.3.4";
+const char *host = "127.0.0.1";
 const char *port = "2222";
 const char *passwd = "password";
 
